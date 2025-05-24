@@ -6,3 +6,5 @@ After doing some digging, I found that the cause was some missing fields in the 
 
 In order to use this, first copy the PlayerState.json file from the internal bandcamp files on your phone to your computer. It should be located in (wherever app files are located)/(bandcamp folder)/files/PlayerState.json. Then, run `python bandcamp_queue_updater.py PlayerState.json` in the terminal and copy the file back to the bandcamp files. Make sure to delete the old file first. This will probably fix the issue.
 
+If you're not concerned with saving the queue, then you can just play a new song or album to delete the old queue. No complicated steps needed for that.
+
